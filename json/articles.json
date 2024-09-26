@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "66e94765b0b5101030987ff3"
+  },
+  "id": "1",
+  "title": "Govt removes minimum export price on onion",
+  "description": "The government had previously fixed a USD 550 per tonne as the minimum export price (MEP), which essentially meant farmers could not sell their produce overseas at lower than this rate.",
+  "page_link": "https://indianexpress.com/article/business/govt-removes-minimum-export-price-onion-9566329/",
+  "date": "2024-09-01 00:00:00",
+  "country_code": "in",
+  "category": "business",
+  "img": "onions-1600.jpg",
+  "source": "indianexpress"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ff7"
+  },
+  "id": "2",
+  "title": "Actor Vikrant Massey opened up about the Justice Hema Committee report.",
+  "description": "Vikrant Massey says he feels ashamed that he is more secure than the opposite gender: A lot of us need to look at the rot within",
+  "page_link": "https://indianexpress.com/article/entertainment/bollywood/vikrant-massey-says-he-feels-ashamed-that-he-is-more-secure-than-the-opposite-sex-9567181/",
+  "date": "2024-09-02 00:00:00",
+  "country_code": "in",
+  "category": "entertainment",
+  "img": "sector36.jpg",
+  "source": "indianexpress"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ff8"
+  },
+  "id": "3",
+  "title": "2 subtle signs of Monkeypox you should not ignore",
+  "description": "India reports its first Mpox case in a young man who recentl ..\r\n\tMonkeypox IN India: Suspected CASE IDENTIFIED; KEY symptoms exclusively seen IN this infection",
+  "page_link": "http://timesofindia.indiatimes.com/articleshow/113342004.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst",
+  "date": "2024-09-03 00:00:00",
+  "country_code": "uk",
+  "category": "health",
+  "img": "monpox.jpg",
+  "source": "timesofindia"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ff9"
+  },
+  "id": "4",
+  "title": "Two astronauts did a spacewalk 700 km above the Earth",
+  "description": "On September 12, two astronauts conducted a spacewalk about 700 kilometers above the Earth in the Polaris Dawn mission of Elon Musk's company SpaceX. The speed of the spacecraft at the time of the spacewalk was 25,000 km per hour. This is the first spacewalk conducted from a private spaceship.",
+  "page_link": "https://www.bhaskar.com/international/news/two-astronauts-doing-a-spacewalk-700-km-above-133631960.html",
+  "date": "2024-09-04 00:00:00",
+  "country_code": "in",
+  "category": "science",
+  "img": "science.jpg",
+  "source": "dainikbhaskar"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ffa"
+  },
+  "id": "5",
+  "title": "Future loading but please wait",
+  "description": "India will follow this race of the 20-something cricketers with anticipation and also a sense of nervousness. This cricket-crazy nation, while celebrating grand graduations, have also endured false dawns.",
+  "page_link": "https://indianexpress.com/article/sports/cricket/india-cricket-future-post-rohit-virat-era-stars-jaiswal-gill-pant-9566874/",
+  "date": "2024-09-05 00:00:00",
+  "country_code": "in",
+  "category": "sports",
+  "img": "sports.jpg",
+  "source": "indianexpress"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ffb"
+  },
+  "id": "6",
+  "title": "OpenAI's stunning $150 billion valuation hinges on upending corporate structure",
+  "description": "OpenAI's new financing round is expected to come in the form of convertible notes, according to sources with direct knowledge of the matter, who said its $150 billion valuation will be contingent on whether the ChatGPT-maker can upend its corporate structure and remove a profit cap for investors.",
+  "page_link": "https://www.thehindu.com/sci-tech/technology/openais-stunning-150-billion-valuation-hinges-on-upending-corporate-structure-sources-say/article68641515.ece",
+  "date": "2024-09-06 00:00:00",
+  "country_code": "in",
+  "category": "technology",
+  "img": "openai.jpg",
+  "source": "thehindu"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ffc"
+  },
+  "id": "7",
+  "title": "Govt clears 12 Indian start-ups for incentives under chip design plan",
+  "description": "The government has received 59 applications under the design linked incentive (DLI) scheme, of which it has cleared 12 for financial assistance. 21 applications are under review.",
+  "page_link": "https://indianexpress.com/article/business/economy/govt-clears-12-indian-start-ups-incentives-chip-design-plan-9557187/",
+  "date": "2024-09-07 00:00:00",
+  "country_code": "in",
+  "category": "business",
+  "img": "buss.jpg",
+  "source": "indianexpress"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ffd"
+  },
+  "id": "8",
+  "title": "OTT Releases This Week: Emily in Paris Season 4 Part 2, Bad Newz, Berlin, Officer Black Belt",
+  "description": "This weekend's OTT offerings include Emily in Paris Season 4 ..\r\n\r\n\r\n",
+  "page_link": "http://timesofindia.indiatimes.com/articleshow/113343112.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst",
+  "date": "2024-09-08 00:00:00",
+  "country_code": "in",
+  "category": "entertainment",
+  "img": "en.jpg",
+  "source": "timesofindia"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987ffe"
+  },
+  "id": "9",
+  "title": "Two FPIs mentioned in the Hindenburg report seek relief.",
+  "description": "Deadline for beneficial ownership of FPI holdings ends on Sept 9",
+  "page_link": "https://indianexpress.com/article/business/market/deadline-for-beneficial-ownership-of-fpi-holdings-ends-on-sept-9-9557191/",
+  "date": "2024-09-09 00:00:00",
+  "country_code": "in",
+  "category": "business",
+  "img": "markets.jpg",
+  "source": "indianexpress"
+},
+{
+  "_id": {
+    "$oid": "66e948e4b0b5101030987fff"
+  },
+  "id": "10",
+  "title": "Scientists find a long-sought electric field in Earth's atmosphere",
+  "description": "For the first time scientists have measured a long-sought global electric field in the Earth's atmosphere This field called the ambipolar electric field was predicted to exist decades ago but never detected until now\n\nThat's the big whoop says atmospheric scientist Glyn Collinson of NASA's Goddard Space Flight Center in Greenbelt Md It's a whole frickin new planetary energy field that's never been measured before",
+  "page_link": "https://www.sciencenews.org/article/electric-field-in-earths-atmosphere",
+  "date": "2024-09-10 00:00:00",
+  "country_code": "in",
+  "category": "science",
+  "img": "science1.jpg",
+  "source": "sciencenews"
+}]

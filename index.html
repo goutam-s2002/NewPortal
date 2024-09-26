@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice of India</title>
+    <link href="image/logo.png" rel="icon" />
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav id="nav-container" class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Voice of India</a>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="#all" data-category="general">Home</a></li>
+                <li><a href="#Business" data-category="business">Business</a></li>
+                <li><a href="#Entertainment" data-category="entertainment">Entertainment</a></li>
+                <li><a href="#Health" data-category="health">Health</a></li>
+                <li><a href="#Science" data-category="science">Science</a></li>
+                <li><a href="#Sports" data-category="sports">Sports</a></li>
+                <li><a href="#Technology" data-category="technology">Technology</a></li>
+                <li><a href="about.html" data-category="about">About</a></li>
+                <select id="country-select" onchange="apiCalling();">
+                    <option value="us" data-flag="image/flags/us.png" selected>United States</option>
+                    <option value="in" data-flag="image/flags/ind.png">India</option>
+                    <option value="gb" data-flag="image/flags/uk.png">United Kingdom</option>
+                    <option value="ca" data-flag="image/flags/cad.png">Canada</option>
+                    <option value="au" data-flag="image/flags/aus.png">Australia</option>
+                </select>
+                <button id="toggleTheme"><i id="themeIcon" class="bi bi-brightness-high"></i></button>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar for Mobile -->
+    <aside class="sidebar">
+        <button class="close-sidebar" aria-label="Close sidebar">&times;</button>
+        <ul class="sidebar-links">
+            <li><a href="#all" data-category="general">Home</a></li>
+            <li><a href="#Business" data-category="business">Business</a></li>
+            <li><a href="#Entertainment" data-category="entertainment">Entertainment</a></li>
+            <li><a href="#Health" data-category="health">Health</a></li>
+            <li><a href="#Science" data-category="science">Science</a></li>
+            <li><a href="#Sports" data-category="sports">Sports</a></li>
+            <li><a href="#Technology" data-category="technology">Technology</a></li>
+            <li><a href="about.html" data-category="about">About</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+        <section id="news">
+            <h2 id="headline">Top General Headlines</h2>
+
+            <div id="news-container"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer main-footer">
+        <p>&copy; 2024 Voice of India. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

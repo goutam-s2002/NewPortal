@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <style>
+        /* Basic styling for the articles list */
+        .news-art {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .news-article-img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .news-article-content {
+            margin-top: 10px;
+        }
+        .read-more {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>News Articles</h1>
+    <div id="news-container"></div>
+
+    <script>
+        // Fetch articles from the PHP script
+        fetch('http://localhost/fetch_articles.php')
+            .then(response => response.json())
+            .then(data => {
+                const articlesContainer = document.getElementById('news-container');
+                articlesContainer.innerHTML = ''; // Clear any existing content
+                
+                data.forEach(article => {
+                    // Create the HTML structure for each article
+                    const articleHTML = `
+                        <div id="news-art" class="news-art news-article">
+                            <div class="news-article-img">
+                                <img src='image/default-image.jpg' alt="${article.title}" style="max-width: 100%;">
+                            </div>
+                            <div class="news-article-content">
+                                <h3>${article.title}</h3>
+                                <p>${article.description}</p>
+                                <p><em>Source: ${article.country_code}</em></p>
+                                <a href="${article.page_link}" target="_blank" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Append the article HTML to the container
+                    articlesContainer.innerHTML += articleHTML;
+                });
+            })
+            .catch(error => console.error('Error fetching articles:', error));
+    </script>
+</body>
+</html>

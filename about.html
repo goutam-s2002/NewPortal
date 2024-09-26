@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Voice of India</title>
+    <link href="image/logo.png" rel="icon" />
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <style>
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem; /* Adjust as needed */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 30px 100px 30px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0 -15px;
+    text-align: center;
+}
+
+.col-lg-4, .col-md-4 {
+    flex: 1;
+    max-width: 33.33%;
+    padding: 0 15px;
+}
+
+.abut-gride {
+    padding: 10px;
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+</head>
+<body>
+	  <!-- Navigation Bar -->
+	  <nav id="nav-container" class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Voice of India</a>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="#all" data-category="general">Home</a></li>
+                <li><a href="#Business" data-category="business">Business</a></li>
+                <li><a href="#Entertainment" data-category="entertainment">Entertainment</a></li>
+                <li><a href="#Health" data-category="health">Health</a></li>
+                <li><a href="#Science" data-category="science">Science</a></li>
+                <li><a href="#Sports" data-category="sports">Sports</a></li>
+                <li><a href="#Technology" data-category="technology">Technology</a></li>
+                <li><a href="about.html" data-category="about">About</a></li>
+                <button id="toggleTheme"><i id="themeIcon" class="bi bi-brightness-high"></i></button>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar for Mobile -->
+    <aside class="sidebar">
+        <button class="close-sidebar" aria-label="Close sidebar">&times;</button>
+        <ul class="sidebar-links">
+            <li><a href="#all" data-category="general">Home</a></li>
+            <li><a href="#Business" data-category="business">Business</a></li>
+            <li><a href="#Entertainment" data-category="entertainment">Entertainment</a></li>
+            <li><a href="#Health" data-category="health">Health</a></li>
+            <li><a href="#Science" data-category="science">Science</a></li>
+            <li><a href="#Sports" data-category="sports">Sports</a></li>
+            <li><a href="#Technology" data-category="technology">Technology</a></li>
+            <li><a href="about.html" data-category="about">About</a></li>
+        </ul>
+    </aside>
+    <header>
+        <h1>About Us - Voice of India</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="image/default-image.jpg" alt="Our Team">
+            <i class="bi bi-arrow-clockwise"></i>
+            <h2>Our Team</h2>
+            <p>We are dedicated journalists and media professionals committed to delivering the latest and most accurate news from across India.</p>
+        </div>
+
+        <div class="card">
+            <img src="image/default-image.jpg" alt="Our Values">
+            <h2>Our Values</h2>
+            <p>We uphold the values of integrity, fairness, and transparency in our news reporting and interactions with our audience.</p>
+        </div>
+
+        <div class="card">
+            <img src="image/default-image.jpg" alt="Our History">
+            <h2>Our History</h2>
+            <p>Founded in 2024, Voice of India has rapidly grown to become a trusted source for news and insights on national and international affairs.</p>
+        </div>
+
+        <div class="about-sub-inner text-center mt-lg-4 mt-3">
+            <div class="h">
+                <h4>Our Services</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 abut-gride">
+                    <img src="image/default-image.jpg" alt="Shipping" height="50" width="50">
+                    <h5>Shipping</h5>
+                    <p class="mt-3">Reliable and timely delivery of our publications and merchandise.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 abut-gride">
+                    <img src="image/default-image.jpg" alt="Support" height="50" width="50">
+                    <h5>Support</h5>
+                    <p class="mt-3">24/7 support to address any queries or issues you may have.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 abut-gride">
+                    <img src="image/default-image.jpg" alt="Return" height="50" width="50">
+                    <h5>Return</h5>
+                    <p class="mt-3">Easy and hassle-free return process for our products.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Voice of India. All rights reserved.</p>
+    </footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
