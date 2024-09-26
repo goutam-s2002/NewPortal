@@ -282,7 +282,7 @@ a:hover {
     display: none;
     position: fixed;
     top:2.30%;
-    right: 7%;
+    right: 10%;
 }
 
 #toggleTheme:hover,#toggleTheme-side:hover {
