@@ -281,7 +281,8 @@ a:hover {
 #toggleTheme-side{
     display: none;
     position: fixed;
-    right: 5%;
+    top:2.30%;
+    right: 7%;
 }
 
 #toggleTheme:hover,#toggleTheme-side:hover {
