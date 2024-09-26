@@ -141,6 +141,7 @@ document.querySelectorAll(".nav-links a,.sidebar-links a").forEach((link) => {
 
 //dark mode js
 const toggleButton = document.getElementById("toggleTheme");
+const toggleButtonSide =  document.getElementById("toggleTheme-side");
 const body = document.body;
 const themeIcon = document.getElementById("themeIcon");
 const navCon = document.getElementById("nav-container");
@@ -155,6 +156,20 @@ if (localStorage.getItem("darkMode") === "enabled") {
 }
 
 toggleButton.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+  navCon.classList.toggle("dark-mode-nav");
+  newsArticles.classList.toggle("dark-mode-news-container");
+
+  if (body.classList.contains("dark-mode")) {
+    localStorage.setItem("darkMode", "enabled");
+    themeIcon.classList.replace("bi-brightness-high", "bi-brightness-low"); // Switch to dark mode icon
+  } else {
+    localStorage.removeItem("darkMode");
+    themeIcon.classList.replace("bi-brightness-low", "bi-brightness-high"); // Switch to light mode icon
+  }
+});
+
+toggleButtonSide.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   navCon.classList.toggle("dark-mode-nav");
   newsArticles.classList.toggle("dark-mode-news-container");
