@@ -139,47 +139,59 @@ document.querySelectorAll(".nav-links a,.sidebar-links a").forEach((link) => {
   });
 });
 
+
 //dark mode js
 const toggleButton = document.getElementById("toggleTheme");
-const toggleButtonSide =  document.getElementById("toggleTheme-side");
+const toggleButtonSide = document.getElementById("toggleTheme-side");
 const body = document.body;
 const themeIcon = document.getElementById("themeIcon");
+const themeIconSide = document.getElementById("themeIconSide");
 const navCon = document.getElementById("nav-container");
 const newsArticles = document.getElementById("news-container"); // Selecting articles with class 'news-art'
 
 // Check if dark mode was enabled previously
 if (localStorage.getItem("darkMode") === "enabled") {
-  body.classList.add("dark-mode");
-  navCon.classList.add("dark-mode-nav");
-  newsArticles.classList.add("dark-mode-news-container");
   themeIcon.classList.replace("bi-brightness-high", "bi-brightness-low"); // Set dark mode icon
+  themeIconSide.classList.replace("bi-brightness-high", "bi-brightness-low"); // Set dark mode icon
+  body.classList.add("dark-mode");
+  navCon.classList.toggle("dark-mode-nav");
+  if (window.location.pathname.endsWith("index.html")) {
+    newsArticles.classList.toggle("dark-mode-news-container");
+  }
 }
 
 toggleButton.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   navCon.classList.toggle("dark-mode-nav");
-  newsArticles.classList.toggle("dark-mode-news-container");
-
+  if (window.location.pathname.endsWith("index.html")) {
+    newsArticles.classList.toggle("dark-mode-news-container");
+  }
   if (body.classList.contains("dark-mode")) {
     localStorage.setItem("darkMode", "enabled");
     themeIcon.classList.replace("bi-brightness-high", "bi-brightness-low"); // Switch to dark mode icon
+    themeIconSide.classList.replace("bi-brightness-high", "bi-brightness-low");
   } else {
     localStorage.removeItem("darkMode");
     themeIcon.classList.replace("bi-brightness-low", "bi-brightness-high"); // Switch to light mode icon
+    themeIconSide.classList.replace("bi-brightness-high", "bi-brightness-low");
   }
 });
 
 toggleButtonSide.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   navCon.classList.toggle("dark-mode-nav");
-  newsArticles.classList.toggle("dark-mode-news-container");
+  if (window.location.pathname.endsWith("index.html")) {
+    newsArticles.classList.toggle("dark-mode-news-container");
+  }
 
   if (body.classList.contains("dark-mode")) {
     localStorage.setItem("darkMode", "enabled");
     themeIcon.classList.replace("bi-brightness-high", "bi-brightness-low"); // Switch to dark mode icon
+    themeIconSide.classList.replace("bi-brightness-high", "bi-brightness-low");
   } else {
     localStorage.removeItem("darkMode");
     themeIcon.classList.replace("bi-brightness-low", "bi-brightness-high"); // Switch to light mode icon
+    themeIconSide.classList.replace("bi-brightness-high", "bi-brightness-low");
   }
 });
 
