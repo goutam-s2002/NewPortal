@@ -113,32 +113,13 @@ function apiCalling() {
       headlinecon.innerHTML = `Top ${
         category.charAt(0).toUpperCase() + category.slice(1)
       } Headlines`;
-      if (category == "about") {
-        console.log("hello");
-        window.location.href = "about.html";
-      }
+      
       fetchNews(category);
       window.location.hash = this.getAttribute("href");
     });
   });
 }
 //api js end
-
-// Handle category link clicks
-document.querySelectorAll(".nav-links a,.sidebar-links a").forEach((link) => {
-  link.addEventListener("click", function (event) {
-    event.preventDefault();
-    const category = this.getAttribute("data-category");
-    if (category == "about") {
-      console.log("hello");
-      window.location.href = "about.html";
-    } else if (category == "general") {
-      console.log("general");
-      window.location.href = "index.html";
-    }
-  });
-});
-
 
 //dark mode js
 const toggleButton = document.getElementById("toggleTheme");
